@@ -1,0 +1,234 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5bedcfc7-c39c-4373-8576-841e559f892a")
+	(paper "A4")
+	(title_block
+		(title "Apollo - Tube Amp")
+		(date "2024-10-24")
+		(rev "A")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 133.35 90.17) (xy 149.86 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9d6d19e-ef49-49ef-8d22-e1f8084e4e90")
+	)
+	(wire
+		(pts
+			(xy 133.35 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dbdfbb-4105-40e0-8bd3-0dcbbd49653d")
+	)
+	(sheet
+		(at 107.95 73.66)
+		(size 25.4 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4e5bc555-14cc-45c5-91f0-c82a88ca26ce")
+		(property "Sheetname" "Input and Splitter"
+			(at 107.95 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "input_stage.kicad_sch"
+			(at 107.95 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "+290V" input
+			(at 107.95 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "3a13eac1-b53f-4396-9467-639704df4757")
+		)
+		(pin "SIG_OUT+" input
+			(at 133.35 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a21242cc-e350-4ede-9bd7-b322939bdeda")
+		)
+		(pin "SIG_OUT-" input
+			(at 133.35 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "3792be01-478a-419c-8a2a-7b211e42e059")
+		)
+		(pin "+280V" input
+			(at 107.95 78.74 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "404c32ef-4339-43f5-bd9e-faf08fb32f75")
+		)
+		(pin "SIG_IN" input
+			(at 107.95 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e51d2fc4-0504-4331-87cb-6e534ec1e5e0")
+		)
+		(instances
+			(project "Apollo"
+				(path "/5bedcfc7-c39c-4373-8576-841e559f892a"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 73.66)
+		(size 27.94 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "546f52ff-289c-4468-9c4a-9550a5b986f5")
+		(property "Sheetname" "Power Amp Stage"
+			(at 149.86 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_stage.kicad_sch"
+			(at 149.86 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SIG_IN+" input
+			(at 149.86 87.63 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ecd8cc10-3959-4eac-ade6-57da69d09138")
+		)
+		(pin "VG1" input
+			(at 149.86 80.01 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ed8135a9-86c2-4e22-b3d7-e98a35dd881c")
+		)
+		(pin "VG2" input
+			(at 149.86 82.55 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0fd9b514-58aa-4b26-b717-e2c113bf9fed")
+		)
+		(pin "SIG_IN-" input
+			(at 149.86 90.17 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fab33e2c-74d8-4e90-a4a8-c2c595480daa")
+		)
+		(pin "+300V" input
+			(at 149.86 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a1ebb69-4d73-4090-ab84-708dfb85518c")
+		)
+		(pin "SIG_OUT+" input
+			(at 177.8 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e0c1fb24-b6a8-4761-9ff7-dce64e054381")
+		)
+		(pin "SIG_OUT-" input
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9ec4ebb-92e4-45ff-bab0-76ce17912291")
+		)
+		(instances
+			(project "Apollo"
+				(path "/5bedcfc7-c39c-4373-8576-841e559f892a"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
